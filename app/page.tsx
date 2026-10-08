@@ -1,7 +1,11 @@
 'use client';
 
-import App from '../App';
+import TrafficDashGame from '../traffic-dash-game';
 
 export default function Home() {
-  return <App />;
+  return (
+    <main className="w-full h-screen overflow-hidden">
+      <TrafficDashGame />
+    </main>
+  );
 }
