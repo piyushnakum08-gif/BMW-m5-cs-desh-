@@ -10,10 +10,10 @@ import {
   MAX_SPEED,
   PLAYER_Y,
   STEER_SPEED,
-} from '@/lib/game/constants'
-import { drawCoin, drawCrashFlash, drawPlayerCar, drawPopup, drawRoad, drawTrafficCar } from '@/lib/game/draw'
-import { GameAudio } from '@/lib/game/game-audio'
-import { createInput, createWorld, idleWorld, swipeTarget, updateWorld, type Input } from '@/lib/game/world'
+} from './constants'
+import { drawCoin, drawCrashFlash, drawPlayerCar, drawPopup, drawRoad, drawTrafficCar } from './draw'
+import { GameAudio } from './game-audio'
+import { createInput, createWorld, idleWorld, swipeTarget, updateWorld, type Input } from './world'
 import { GameHud } from './game-hud'
 import { GameOverlay, type GameStatus } from './game-overlay'
 import { SoundToggle } from './sound-toggle'
