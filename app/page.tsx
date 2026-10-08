@@ -1,6 +1,6 @@
 'use client';
 
-import TrafficDashGame from '../traffic-dash-game';
+import { TrafficDashGame } from '../traffic-dash-game';
 
 export default function Home() {
   return (
