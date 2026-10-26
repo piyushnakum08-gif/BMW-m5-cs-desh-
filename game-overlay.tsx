@@ -1,4 +1,4 @@
-import { Play, RotateCcw } from 'lucide-react'
+import { Play, RotateCcw, Gift } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export type GameStatus = 'ready' | 'playing' | 'over'
@@ -73,6 +73,15 @@ export function GameOverlay({ status, score, coins, highScore, isNewRecord, onSt
             <RotateCcw className="size-5" aria-hidden="true" />
             Restart
           </Button>
+                      <a
+              href="https://uplcm.com/4/12128900"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-12 items-center justify-center gap-2 rounded-md border border-white/20 px-8 text-base font-bold uppercase tracking-wide text-white hover:bg-white/10"
+            >
+              <Gift className="size-5" aria-hidden="true" />
+              Support us (Ad)
+            </a>
         </>
       ) : (
         <>
